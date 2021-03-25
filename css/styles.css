@@ -24,6 +24,20 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+}
+
+/* page header */
+
+.page-header {
+background-color: #ccc;
+
+}
 /* logo */
 .contacts .link:hover,
 .contacts .link:focus {
@@ -62,15 +76,22 @@ body {
 }
 /* hero */
 .hero {
+  text-align: center;
   background-color: var(--background-dark);
 }
 .hero-list {
+  margin-top: 0;
+  margin-bottom: 30px;
+  
+
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  
   letter-spacing: 0.06em;
+
+  
 }
 /* section and team */
 .section-title,
@@ -104,13 +125,22 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 /* button */
 .btn-primary {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+  min-width: 200px;
+    
+
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 /* details */
@@ -174,5 +204,7 @@ body {
   line-height: 1.71;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }

@@ -405,8 +405,15 @@ margin-left:auto;
 .detail .link:last-child(2n) {
   padding-bottom: 60px;
 }
-.detail li {
+
+/* Было так */
+/* .detail li {
 margin-top: 9px;
+} */
+
+/* Переделал, задаю списку  */
+.detail {
+  margin-top: 9px;
 }
 
 .address {

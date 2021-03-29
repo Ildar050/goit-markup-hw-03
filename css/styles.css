@@ -261,10 +261,12 @@ border-bottom: 1px solid var(--header-border);
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-/* details */
-.details {
-  background-color: var(--background-dark);
+
+/* footer */
+.basement {
+ background-color: var(--background-dark);
 }
+
 /* contacts */
 .contacts {
 display: flex;
@@ -413,6 +415,9 @@ margin-top: 9px;
 
 /* Переделал, задаю списку  */
 .detail {
+  margin-top: 9px;
+}
+.detail li:last-child {
   margin-top: 9px;
 }
 
